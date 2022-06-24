@@ -1,0 +1,284 @@
+.biz {
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.footer-tree {
+    background-image: url(imgs/forest.png);
+    background-repeat: no-repeat;
+}
+
+.c-bg-dark-green {
+    background-color: #0B230D;
+}
+
+.c-bg-mid-green {
+    background-color: #205A16;
+}
+
+.c-bg-green {
+    background-color: #56DB40;
+}
+
+.c-green-yellow {
+    color: #BCCC00;
+}
+
+
+.c-bg-1 {
+    background-image: url(imgs/bg-1.png);
+    background-repeat: no-repeat;
+}
+
+.c-bg-2 {
+    background-image: url(imgs/bg-2.png);
+    background-repeat: no-repeat;
+}
+
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.dg-grid {
+    display: grid;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+
+.anon {
+    font-family: 'Anonymous Pro', sans-serif;
+}
+
+.screenreader-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.header-bg {
+    background-image: url(imgs/headerbg.png);
+    background-position: bottom;
+}
+
+.study-bg {
+    background-image: url(imgs/studybg.png);
+}
+
+.vim {
+    vertical-align: middle;
+}
+
+.bg-lilac {
+    background-color: #c0a7ce;
+}
+
+.dg {
+    display: grid;
+}
+
+.grid-main {
+    grid-template-columns: 1fr 90% 1fr;
+}
+
+
+.bg-header {
+    background: url(imgs/header-bg.jpg);
+}
+
+.bg-friends {
+    background-image: url(imgs/friends-bg-2.png);
+}
+
+.bg-left-border {
+    background-image: url(imgs/left.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.bg-right-border {
+    background-image: url(imgs/right.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.bg-top-border {
+    background-image: url(imgs/top.png);
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
+
+.bg-bottom-border {
+    background-image: url(imgs/bottom.png);
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
+
+.bg-main-ellip {
+    background-image: url(imgfs/top_ellip.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mvh-100 {
+    min-height: 100vh;
+}
+
+details[open] {
+    background-color: #CDECFF;
+  }
+
+  .sticky {
+      position: sticky;
+  }
+
+.bg-peach {
+    background-color: #ffe1d0;
+}
+
+.bg-image-ns {
+    background-size: 90%;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.bg-violet {
+    background-color: #280069;
+}
+
+.turquoise {
+    color: #00AEB9;
+}
+
+.bg-mauve {
+    background-color: #B78BCC;
+}
+
+.bg-mustard {
+    background-color: #D1DC8B;
+}
+
+.grid-new {
+    grid-template-rows:  55% 10% 35%;
+    grid-template-columns: 1fr;
+}
+
+.bg-backdrop {
+    background: url(imgs/backdrop.png);
+}
+
+.bg-lime {
+    background-color: #CFF1BA;
+}
+
+.bg-muted-tomato {
+    background-color: #bd7a7a;
+}
+
+.bg-raspberry {
+    background-color: #8a0047;
+}
+
+.bg-squash {
+    background-color: #e3a000;
+}
+
+.vh-40 {
+    height: 40vh;
+}
+
+.vh-35 {
+    height: 35vh;
+}
+
+
+.mw12rem {
+    max-width: 12rem;
+}
+
+.items-bottom {
+    align-items: flex-end;
+}
+
+.bg-moss {
+    background: #08352f;
+}
+
+.ws-no {
+    white-space: nowrap;
+}
+
+.bg-texture {
+    background: url(imgs/bg_texture.jpg);
+}
+
+@media screen and (min-width:40em){ 
+
+
+    .c-mw55-m {
+        max-width: 20rem;
+    }
+
+    .grid-new-m {
+        grid-template-rows:  50% 15% 35%;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* MEDIA QUERY */
+@media screen and (min-width:50em){ 
+    .grid-span-2-ns {
+        grid-row: span 2;
+    }
+
+    .grid-new-ns {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 3fr 4fr;
+    }
+
+    .grid-span-2-rows {
+        grid-row: span 2;
+    }
+
+    .grid-span-3-rows {
+        grid-row: span 3;
+    }
+
+    .vh-50-ns {
+        height: 50vh;
+    }
+}
+
+
+@media screen and (min-width:60em){ 
+    .grid-cols-2-l {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .overflow-y-l {
+        overflow-y: scroll;
+    }
+
+    .c-center-l {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .vh-100-l {
+        max-height: 100vh;
+    }
+}
