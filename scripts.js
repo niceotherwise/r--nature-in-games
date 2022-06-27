@@ -5,12 +5,13 @@ function randomNumber(min, max) {
 function randoBg() {
     console.log("baaaa!");
     let divs = document.getElementsByClassName("js-bg");
-    let bgs = 9;
+    let bgs = [1,2,3,4,5,6,7,8,9];
 
     for (let i = 0; i < divs.length; i++) {
-        let num = randomNumber(1, bgs);
-        divs[i].style.backgroundImage = "url('imgs/forests/forest-" + num + ".jpg')";
-        console.log("computer says " + num);
+        let num = randomNumber(1, bgs.length);
+        divs[i].style.backgroundImage = "url('imgs/forests/forest-" + bgs[num] + ".jpg')";
+        bgs.splice(num, 1);
+        //console.log("computer says " + bgs + num);
   }
 }
 
