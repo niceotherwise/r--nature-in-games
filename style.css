@@ -1,3 +1,8 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+
 .biz {
     font-family: 'BIZ UDGothic', sans-serif;
 }
@@ -6,6 +11,15 @@
     font-family: 'Nunito', sans-serif;
 }
 
+
+details {
+    background-color: #205A16;
+}
+
+details[open] {
+    background-color: #7dbe71;
+    color: #000;
+  }
 
 .footer-tree {
     background-image: url(imgs/forest.png);
@@ -18,6 +32,10 @@
 
 .c-bg-mid-green {
     background-color: #205A16;
+}
+
+.c-bg-low-green {
+    background-color: #223d32;
 }
 
 .c-bg-green {
@@ -57,9 +75,12 @@
 }
 
 .bg-scroll {
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
+.soft-trans:hover {
+    transition: .15s ease-in
+}
 
 .anon {
     font-family: 'Anonymous Pro', sans-serif;
@@ -141,10 +162,6 @@
 .mvh-100 {
     min-height: 100vh;
 }
-
-details[open] {
-    background-color: #CDECFF;
-  }
 
   .sticky {
       position: sticky;
