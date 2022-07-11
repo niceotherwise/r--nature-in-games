@@ -3,6 +3,10 @@
 }
 
 
+.bg-right {
+    background-position: right;
+}
+
 .biz {
     font-family: 'BIZ UDGothic', sans-serif;
 }
